@@ -1,0 +1,25 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 30px;
+
+}
+
+// Поключение сетки
+@import './mygrid';
+
+.block {
+    padding: 20px;
+    background-color: #ddd;
+    border: solid 1px #aaa;
+    text-align: center;
+    height: 100%;
+}
+
+.row {
+    margin-bottom: 30px;
+}
