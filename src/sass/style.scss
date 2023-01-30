@@ -12,6 +12,9 @@ body {
 // Поключение сетки
 @import './mygrid';
 
+// Breakpoints
+@import './breakpoints';
+
 .block {
     padding: 20px;
     background-color: #ddd;

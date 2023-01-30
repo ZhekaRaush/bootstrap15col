@@ -33,28 +33,20 @@
         text-align: center;
         font-size: 200px;
 
-        @include media-breakpoint-up('xs') {
-            content: "xs";
+        @include media-breakpoint-up('ph') {
+            content: "ph";
         }
         
-        @include media-breakpoint-up('sm') {
-            content: "sm";
+        @include media-breakpoint-up('tb') {
+            content: "tb";
         }
         
-        @include media-breakpoint-up('md') {
-            content: "md";
+        @include media-breakpoint-up('lp') {
+            content: "lp";
         }
         
-        @include media-breakpoint-up('lg') {
-            content: "lg";
-        }
-        
-        @include media-breakpoint-up('xl') {
-            content: "xl";
-        }
-        
-        @include media-breakpoint-up('xxl') {
-            content: "xxl";
+        @include media-breakpoint-up('dt') {
+            content: "dt";
         }
     }
     
@@ -63,28 +55,20 @@
         text-align: center;
         font-size: 100px;
 
-        @include media-breakpoint-up('xs') {
-            content: "\003C 576px";
+        @include media-breakpoint-up('ph') {
+            content: "\003C 750px";
         }
         
-        @include media-breakpoint-up('sm') {
-            content: "\2265 576px";
+        @include media-breakpoint-up('tb') {
+            content: "\2265 750px";
         }
         
-        @include media-breakpoint-up('md') {
-            content: "\2265 768px";
+        @include media-breakpoint-up('lp') {
+            content: "\2265 950px";
         }
         
-        @include media-breakpoint-up('lg') {
-            content: "\2265 992px";
-        }
-        
-        @include media-breakpoint-up('xl') {
+        @include media-breakpoint-up('dt') {
             content: "\2265 1200px";
-        }
-        
-        @include media-breakpoint-up('xxl') {
-            content: "\2265 1400px";
         }
     }
 }
