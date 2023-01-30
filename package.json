@@ -1,6 +1,6 @@
 {
   "name": "bootstrap15col",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Bootstrap 5.2.3 в 15 колоночной сетке",
   "main": "index.js",
   "scripts": {
